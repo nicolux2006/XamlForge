@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/XamlForge.App/XamlForge.App.csproj" />
+    <Project Path="src/XamlForge.Core/XamlForge.Core.csproj" />
+    <Project Path="src/XamlForge.Designer/XamlForge.Designer.csproj" />
+  </Folder>
+</Solution>

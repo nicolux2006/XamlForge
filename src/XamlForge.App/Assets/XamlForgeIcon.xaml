@@ -1,0 +1,12 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="256" Height="256">
+  <Rectangle Canvas.Left="8" Canvas.Top="8" Width="240" Height="240" RadiusX="48" RadiusY="48">
+    <Rectangle.Fill><LinearGradientBrush StartPoint="0,0" EndPoint="1,1"><GradientStop Color="#1479D1" Offset="0"/><GradientStop Color="#3145A8" Offset="1"/></LinearGradientBrush></Rectangle.Fill>
+  </Rectangle>
+  <Rectangle Canvas.Left="45" Canvas.Top="45" Width="166" Height="164" RadiusX="12" RadiusY="12" Stroke="#F4FAFF" StrokeThickness="9"/>
+  <Path Data="M 46,84 L 210,84" Stroke="#F4FAFF" StrokeThickness="8"/>
+  <Ellipse Canvas.Left="63" Canvas.Top="59" Width="10" Height="10" Fill="#77E3EF"/>
+  <Ellipse Canvas.Left="81" Canvas.Top="59" Width="10" Height="10" Fill="#77E3EF"/>
+  <Path Data="M 104,112 L 80,137 L 104,162 M 153,112 L 177,137 L 153,162" Stroke="White" StrokeThickness="12" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round"/>
+  <Path Data="M 137,110 L 121,165" Stroke="#77E3EF" StrokeThickness="9" StrokeStartLineCap="Round" StrokeEndLineCap="Round"/>
+  <Rectangle Canvas.Left="192" Canvas.Top="191" Width="33" Height="33" RadiusX="4" RadiusY="4" Fill="#77E3EF" Stroke="#284CAC" StrokeThickness="5"/>
+</Canvas>

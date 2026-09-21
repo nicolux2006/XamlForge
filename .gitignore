@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+artifacts/
+dist/
+.vs/
+.idea/
+*.user
+*.suo
+*.log
+settings.json
+settings.json.tmp
+Thumbs.db
+.DS_Store

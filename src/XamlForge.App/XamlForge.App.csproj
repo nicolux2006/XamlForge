@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF>
+  <AssemblyName>XamlForge</AssemblyName><RootNamespace>XamlForge.App</RootNamespace>
+  <ApplicationIcon>Assets/XamlForge.ico</ApplicationIcon>
+  <SelfContained>true</SelfContained><RuntimeIdentifier>win-x64</RuntimeIdentifier><PlatformTarget>x64</PlatformTarget>
+  <ApplicationManifest>app.manifest</ApplicationManifest><PublishTrimmed>false</PublishTrimmed><PublishReadyToRun>false</PublishReadyToRun>
+ </PropertyGroup>
+ <ItemGroup><ProjectReference Include="../XamlForge.Designer/XamlForge.Designer.csproj"/></ItemGroup>
+ <ItemGroup><Page Remove="Assets/XamlForgeIcon.xaml"/><Content Include="Assets/XamlForge.ico;Assets/XamlForge.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest"/></ItemGroup>
+</Project>
